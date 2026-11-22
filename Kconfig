@@ -1,0 +1,4 @@
+config MACRODECK_POWER_STATUS
+	bool "Macrodeck: report USB power (charging) over Bluetooth"
+	default y
+	depends on ZMK_BLE && ZMK_USB
